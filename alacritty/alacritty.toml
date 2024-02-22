@@ -1,0 +1,23 @@
+[font.normal]
+family = "Hack Nerd Font"
+
+[font]
+size = 12
+
+[window]
+decorations = "buttonless"
+opacity = 0.8
+blur = true
+
+[window.dimensions]
+columns = 160  
+lines = 60
+
+[window.padding]
+x = 20
+y = 20
+
+[keyboard]
+bindings = [
+    { key = "W", mods = "Command", action = "Hide" },
+]
