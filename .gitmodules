@@ -1,3 +1,6 @@
 [submodule "doomemacs"]
 	path = doomemacs
 	url = https://github.com/doomemacs/doomemacs
+[submodule "NvChad"]
+	path = NvChad
+	url = https://github.com/NvChad/NvChad
