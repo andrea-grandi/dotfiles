@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <FileZilla3 version="3.66.5" platform="mac">
 	<Layout Builddate="2024-02-07" Buildtime="02:11:09">
 		<Resources>
@@ -7,6 +7,7 @@
 		</Resources>
 		<Language id="default">
 			<Font font="3;90;0;0;43;&lt;plist version=&quot;1.0&quot;>&lt;dict>&lt;key>NSCTFontUIUsageAttribute&lt;/key>&lt;string>CTFontRegularUsage&lt;/string>&lt;key>NSFontSizeAttribute&lt;/key>&lt;real>13&lt;/real>&lt;/dict>&lt;/plist>" width="779" height="16" />
+			<Dialog name="Settings" width="540" />
 		</Language>
 	</Layout>
 </FileZilla3>
