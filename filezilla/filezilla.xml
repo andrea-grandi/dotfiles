@@ -137,7 +137,7 @@
 		<Setting name="File doubleclick action">2</Setting>
 		<Setting name="View hidden files">0</Setting>
 		<Setting name="Show queue">1</Setting>
-		<Setting name="Window position and size">0 276 195 1216 836 </Setting>
+		<Setting name="Window position and size">0 196 91 1216 836 </Setting>
 		<Setting name="Tab data" sensitive="1">
 			<Tabs>
 				<Tab connected="1" selected="1">
@@ -152,8 +152,8 @@
 					<EncodingType>Auto</EncodingType>
 					<BypassProxy>0</BypassProxy>
 					<Site></Site>
-					<RemotePath>1 0 3 Nas 5 Drive 35 artificial_intelligence_engegnering 34 machine_learning_and_deep_learning</RemotePath>
-					<LocalPath>/Users/andreagrandi/Desktop/</LocalPath>
+					<RemotePath>1 0 3 Nas 5 Drive</RemotePath>
+					<LocalPath>/Users/andreagrandi/Projects/</LocalPath>
 				</Tab>
 			</Tabs>
 		</Setting>
