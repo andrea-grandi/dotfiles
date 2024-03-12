@@ -16,6 +16,3 @@ if type -q exa
 end
 
 alias nv 'nvim'
-alias vi 'nvim'
-alias v 'nvim'
-
