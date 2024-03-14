@@ -16,3 +16,9 @@ if type -q exa
 end
 
 alias nv 'nvim'
+alias v 'nvim'
+
+
+# Setting PATH for Python 3.12
+# The original version is saved in /Users/andreagrandi/.config/fish/config.fish.pysave
+set -x PATH "/Library/Frameworks/Python.framework/Versions/3.12/bin" "$PATH"

@@ -10,9 +10,9 @@
     ],
     "modified": "Tue Mar 12 15:03:02 2024",
     "packages": [
+        "#graphicx",
         "#latex-document",
-        "#tex",
-        "#graphicx"
+        "#tex"
     ],
     "refs": [
     ],

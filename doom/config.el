@@ -81,3 +81,38 @@
 
 (setq default-frame-alist '((height . 60)
                             (width . 160)))
+
+;; Directly copied from frame.el but now hide Emacs instead of killing
+;; it when last frame will be closed.
+(defun handle-delete-frame-without-kill-emacs (event)
+  "Handle delete-frame events from the X server."
+  (interactive "e")
+  (let ((frame (posn-window (event-start event)))
+        (i 0)
+        (tail (frame-list)))
+    (while tail
+      (and (frame-visible-p (car tail))
+           (not (eq (car tail) frame))
+           (setq i (1+ i)))
+      (setq tail (cdr tail)))
+    (if (> i 0)
+        (delete-frame frame t)
+      ;; Not (save-buffers-kill-emacs) but instead:
+      (ns-do-hide-emacs))))
+
+(when (eq system-type 'darwin)
+  (advice-add 'handle-delete-frame :override
+              #'handle-delete-frame-without-kill-emacs))
+
+;; No confirmation kill buffer unmodified
+(defun volatile-kill-buffer ()
+   "Kill current buffer unconditionally."
+   (interactive)
+   (let ((buffer-modified-p nil))
+     (kill-buffer (current-buffer))))
+
+(global-set-key (kbd "C-x k") 'volatile-kill-buffer)     ;; Unconditionally kill unmodified buffers.
+
+;;; Custom mapping 
+;; Hide Emacs GUI
+(global-set-key (kbd "s-w") 'ns-do-hide-emacs)
