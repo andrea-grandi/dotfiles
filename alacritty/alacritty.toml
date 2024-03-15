@@ -17,8 +17,4 @@ lines = 60
 x = 20
 y = 20
 
-[keyboard]
-bindings = [
-    { key = "W", mods = "Command", chars = "clear\n" },
-    { key = "W", mods = "Command", action = "Hide" },
-]
+
