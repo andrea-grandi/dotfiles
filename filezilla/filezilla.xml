@@ -134,13 +134,13 @@
 		<Setting name="File doubleclick action">2</Setting>
 		<Setting name="View hidden files">0</Setting>
 		<Setting name="Show queue">1</Setting>
-		<Setting name="Last automatic update check">2024-03-12 11:45:52</Setting>
-		<Setting name="Update Check New Version" platform="mac">release 3.66.5
+		<Setting name="Last automatic update check">2024-03-20 15:34:56</Setting>
+		<Setting name="Update Check New Version" platform="mac">release 3.64.0
 </Setting>
-		<Setting name="Window position and size">0 386 135 1216 836 </Setting>
+		<Setting name="Window position and size">0 241 80 1216 836 </Setting>
 		<Setting name="Tab data" sensitive="1">
 			<Tabs>
-				<Tab connected="1" selected="1">
+				<Tab selected="1">
 					<Host>192.168.11.186</Host>
 					<Port>21</Port>
 					<Protocol>0</Protocol>
@@ -152,8 +152,8 @@
 					<EncodingType>Auto</EncodingType>
 					<BypassProxy>0</BypassProxy>
 					<Site></Site>
-					<RemotePath>1 0 3 Nas 5 Drive 35 artificial_intelligence_engegnering</RemotePath>
-					<LocalPath>/Users/andreagrandi/Projects/</LocalPath>
+					<RemotePath>1 0 3 Nas 5 Drive 10 hackintosh 3 EFI 2 OC</RemotePath>
+					<LocalPath>/Users/andreagrandi/</LocalPath>
 				</Tab>
 			</Tabs>
 		</Setting>
