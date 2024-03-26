@@ -17,7 +17,7 @@ end
 
 alias nv 'nvim'
 alias v 'nvim'
-
+alias py 'python'
 
 # Setting PATH for Python 3.12
 # The original version is saved in /Users/andreagrandi/.config/fish/config.fish.pysave
