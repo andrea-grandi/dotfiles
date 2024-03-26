@@ -54,7 +54,6 @@
 		<Setting name="Ascii Binary mode">0</Setting>
 		<Setting name="Auto Ascii files">ac|am|asp|bat|c|cfm|cgi|conf|cpp|css|dhtml|diff|diz|h|hpp|htm|html|in|inc|java|js|jsp|lua|m4|mak|md5|nfo|nsh|nsi|pas|patch|pem|php|phtml|pl|po|pot|py|qmail|sh|sha1|sha256|sha512|shtml|sql|svg|tcl|tpl|txt|vbs|xhtml|xml|xrc</Setting>
 		<Setting name="Auto Ascii no extension">1</Setting>
-		<Setting name="Auto Ascii dotfiles">1</Setting>
 		<Setting name="Comparison threshold">1</Setting>
 		<Setting name="Update Check">1</Setting>
 		<Setting name="Update Check Interval">7</Setting>
@@ -132,15 +131,16 @@
 		<Setting name="Date Format">0</Setting>
 		<Setting name="Default editor" platform="mac">0</Setting>
 		<Setting name="File doubleclick action">2</Setting>
-		<Setting name="View hidden files">0</Setting>
 		<Setting name="Show queue">1</Setting>
 		<Setting name="Last automatic update check">2024-03-20 15:34:56</Setting>
 		<Setting name="Update Check New Version" platform="mac">release 3.64.0
 </Setting>
-		<Setting name="Window position and size">0 241 80 1216 836 </Setting>
+		<Setting name="Auto Ascii dotfiles">1</Setting>
+		<Setting name="View hidden files">0</Setting>
+		<Setting name="Window position and size">0 1148 136 1216 836 </Setting>
 		<Setting name="Tab data" sensitive="1">
 			<Tabs>
-				<Tab selected="1">
+				<Tab connected="1" selected="1">
 					<Host>192.168.11.186</Host>
 					<Port>21</Port>
 					<Protocol>0</Protocol>
@@ -152,7 +152,7 @@
 					<EncodingType>Auto</EncodingType>
 					<BypassProxy>0</BypassProxy>
 					<Site></Site>
-					<RemotePath>1 0 3 Nas 5 Drive 10 hackintosh 3 EFI 2 OC</RemotePath>
+					<RemotePath>1 0 3 Nas</RemotePath>
 					<LocalPath>/Users/andreagrandi/</LocalPath>
 				</Tab>
 			</Tabs>
